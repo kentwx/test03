@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
                     if (fresult<18.5)
                         dia.setText("體重過輕");
                     else if (18.5 <= fresult && fresult< 24)
-                        dia.setText("正常範圍");
+                        dia.setText("正常範圍，請繼續保持");
                     else if (24 <=fresult && fresult < 27)
-                        dia.setText("過重ㄛ!");
+                        dia.setText("過重ㄛ!請多加注意");
                     else if (27 <=fresult && fresult < 30)
                         dia.setText("輕度肥胖");
                     else if (30 <= fresult && fresult < 35)
-                        dia.setText("中度肥胖，請繼續保持");
+                        dia.setText("中度肥胖");
                     else if (fresult >= 35)
                         dia.setText("重度肥胖，該減重ㄛ");
                 }
